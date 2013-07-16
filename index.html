@@ -5,8 +5,9 @@
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
 
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
@@ -172,58 +173,76 @@
                 <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
                 <button class="btn btn-success btn-large">Preorder</button>
             </div>
+            <div class="span8 offset2 social">
+                <!-- Social buttons are not included in default Bootstrap. -->
+                <!-- See: http://noizwaves.github.io/boostrap-social-buttons -->
+                <button class="btn btn-twitter"><i class="icon-twitter"></i>| Twitter</button>
+                <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+            </div>
+        </div>
     </div>
 
 
-        <div class="span2 logo">
-            Logo
+    <!-- Beyond this part the marketing copy begins. -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+    <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+    <!-- http://placehold.it -->
+    <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+            <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
-        <div class="span6 blank">
-            Blank
-        </div>
-        <div class="span4 about">
-            About
-        </div>
-    </div>
-    <div class="row heading">
-        <div class="span12">
-            <h1>Bitstarter Title</h1>
-        </div>
-    </div>
-    <div class="row subheading">
-        <div class="span12">
-            <p class="  lead">This is my first bitstarter project.</p>
+        <div class="span5 copy">
+            <p>
+                Lorem ipsum dolor sit amet, ferri aperiri pericula id vim, ius vidisse appetere id. Ne cetero suscipit percipitur vis, eam cu commodo nonumes. Cu has elit diceret fierent, ad alii principes per. Simul dolores vivendum ex nam. Cu ridens aliquid mei, ad doctus oblique postulant vel, omnis possim theophrastus vel ei.
+            </p>
         </div>
     </div>
-    <div class="row pitch">
-        <div class="span6 video">
-            Video
+
+    <div class="row-fluid section2">
+        <div class="span5 offset1 copy copy-right">
+            <p>
+                Lorem ipsum dolor sit amet, ferri aperiri pericula id vim, ius vidisse appetere id. Ne cetero suscipit percipitur vis, eam cu commodo nonumes. Cu has elit diceret fierent, ad alii principes per. Simul dolores vivendum ex nam. Cu ridens aliquid mei, ad doctus oblique postulant vel, omnis possim theophrastus vel ei.
+            </p>
         </div>
-        <div class="span6">
-            <div class="thermometer">
-                Thermometer
+        <div class="span5 asset">
+            <img class="img-polaroid" src="http://placehold.it/480x300">
+        </div>
+    </div>
+
+    <!-- For the FAQ, we introduce a little bit of JS, using the accordian. -->
+    <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+    <!-- http://twitter.github.io/bootstrap/javascxript.html#collapse -->
+    <div class="row-fluid faq">
+        <div class="span10 offset1">
+            <h3>FAQ</h3>
+
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                           href="#collapseOne">What does FAQ stand for?</a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Frequently Asked Question.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                           href="#collapseTwo">
+                            What's a Frequently Asked Question?
+                           </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            A question which is commonly asked by users.
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="order">
-                Order
-            </div>
-            <div class="social">
-                Social
-            </div>
         </div>
-    </div>
-    <div class="row section1">
-        <div class="span12">
-            Marketing Section 1
-        </div>
-    </div>
-    <div class="row section2">
-        <div class="span12">Marketing Section 2</div>
-    </div>
-    <div class="row faq">
-        <div class="span12">FAQ</div>
-    </div>
-    <div class="row footer">
-        <div class="span12">Footer</div>
     </div>
 
     <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
