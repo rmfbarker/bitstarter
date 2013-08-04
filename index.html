@@ -1,116 +1,100 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>e-loan New Zealand</title>
+    <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic"
-          rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
           rel="stylesheet" type="text/css">
     <style type="text/css">
 
-        /* Large desktop */
+            /* Large desktop */
         @media (min-width: 980px) {
             body {
                 padding-top: 60px;
             }
-
             .linediv-l {
                 border-right: 1px white solid;
             }
-
             .linediv-r {
                 border-left: 1px white solid;
             }
         }
 
-        /* Landscape phones and down */
+            /* Landscape phones and down */
         @media (max-width: 480px) {
             .copy {
                 padding: 2.5% 10%;
             }
-
             .linediv-l {
                 border-bottom: 1px white solid;
             }
-
             .linediv-r {
                 border-top: 1px white solid;
             }
         }
 
-        /* All form factors */
+            /* All form factors */
 
-        /* Main body and headings */
-        body {
+            /* Main body and headings */
+        body{
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
         }
-
         .heading, .subheading {
             font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
             text-align: center;
         }
-
         p.lead {
             padding-top: 1.5%;
             font-size: 24px;
             line-height: 30px;
         }
-
         p {
             font-size: 18px;
             line-height: 24px;
         }
 
-        /* Video pitch and Action */
+            /* Video pitch and Action */
         .pitch {
-            padding: 2.5% 0;
+            padding: 2.5% 0%;
         }
-
         .order {
-            padding: 2% 0;
+            padding: 2% 0%;
         }
-
         .actions {
             background-color: #343434;
-            padding: 3% 0;
+            padding: 3% 0%;
         }
-
         .video, .thermometer, .order, .social, .statistics {
             text-align: center;
         }
-
         .statistics h3, .statistics p {
             color: white;
         }
 
-        /* Marketing Copy and Footer */
+            /* Marketing Copy and Footer */
         .copy {
             padding-top: 2.5%;
             padding-bottom: 2.5%;
             text-align: justify;
         }
-
         .asset {
-            padding: 2.5% 0;
+            padding: 2.5% 0%;
         }
-
         .footer {
             color: #cccccc;
             text-align: center;
         }
-
         .footer p {
             font-size: 11px;
         }
-
         .footer a {
             color: #ccccff;
         }
@@ -118,7 +102,7 @@
 </head>
 <body>
 
-<!--Mobile-friendly navbar adapted from example. -->
+<!-- Mobile-friendly navbar adapted from example. -->
 <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
@@ -130,199 +114,190 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="brand" href="#">Bitstarter</a>
-
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-            <!-- /.nav-collapse -->
+            </div><!--/.nav-collapse -->
         </div>
     </div>
 </div>
 
-<!--We use row-fluid inside containers to achieve a resizable layout.-->
+<!-- We use row-fluid inside containers to achieve a resizable layout. -->
 <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
+<!-- http://stackoverflow.com/a/12270322 -->
 <div class="container">
-    <!-- Font and paired font of .heading/ .subheading and body from Google Fonts -->
+    <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
     <!-- www.google.com/fonts/specimen/Ubuntu -->
-    <!-- www.google.com/fonts/specimen/Ubnutu#pairings -->
+    <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
     <div class="row-fluid heading">
         <div class="span12">
-            <h1>Product</h1>
+            <h1>Product: Development Version</h1>
         </div>
     </div>
     <div class="row-fluid subheading">
         <div class="span12">
             <!-- Special typography from Bootstrap for lead paragraph. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-            <p class="lead">p2p loans. Save on interest, make more on interest!</p>
+            <p class="lead">One sentence description.</p>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" src="http://placehold.it/480x300">
+            <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
+        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
-            <div class="span8 offset2">
-                <div class="statistics">
-                    <div class="span4">
-                        <!-- linediv-1 and livediv-r give dividing lines that look
-                    different in horizontal and vertical layouts, illustrating
-                    media queries. -->
-                        <div class="linediv-l">
-                            <h3>100</h3> <p>backers</p>
+            <div class="row-fluid">
+                <div class="span8 offset2">
+                    <div class="row-fluid statistics">
+                        <div class="span4">
+                            <!-- linediv-l and linediv-r give dividing lines that look
+                            different in horizontal and vertical layouts, illustrating
+                            media queries. -->
+                            <div class="linediv-l">
+                                <h3>1000</h3> <p>backers</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="span4">
-                        <div class="linediv-c">
-                            <h3>$6000</h3> <p>of $10,000</p>
+                        <div class="span4">
+                            <div class="linediv-c">
+                                <h3>$6000</h3> <p>of $10,000</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="span4">
-                        <div class="linediv-r">
-                            <h3>10</h3> <p>days left</p>
+                        <div class="span4">
+                            <div class="linediv-r">
+                                <h3>10</h3> <p>days left</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="span10 offset1">
-                <!-- Bootstrap progress bar -->
-                <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-                <div class="thermometer progress active">
-                    <div class="bar bar-success" style="width: 60%;"></div>
-                    <div class="bar bar-warning" style="width: 40%;"></div>
+                <div class="row-fluid">
+                    <div class="span10 offset1">
+                        <!-- Bootstrap progress bar -->
+                        <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+                        <div class="thermometer progress active">
+                            <div class="bar bar-success" style="width: 60%;"></div>
+                            <div class="bar bar-warning" style="width: 40%;"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="span6 offset3 order">
-                <!-- Standard Bootstrap button. -->
-                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-                <button class="btn btn-success btn-large">Preorder</button>
-            </div>
-            <div class="span8 offset2 social">
-                <!-- Social buttons are not included in default Bootstrap. -->
-                <!-- See: http://noizwaves.github.io/boostrap-social-buttons -->
-                <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-                <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                <div class="row-fluid">
+                    <div class="span6 offset3 order">
+                        <!-- Standard Bootstrap button. -->
+                        <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                        <button class="btn btn-success btn-large">Preorder</button>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span8 offset2 social">
+                        <!-- Social buttons are not included in default Bootstrap. -->
+                        <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+                        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Beyond this part the marketing copy begins. -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
-<!-- http://twitter.github.io/bootstrap/base-css.html#images -->
-<!-- http://placehold.it -->
-<div class="row-fluid section1">
-    <div class="span5 offset1 asset">
-        <img class="img-polaroid" src="http://placehold.it/480x300">
+    <!-- Beyond this part the marketing copy begins. -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+    <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+    <!-- http://placehold.it -->
+    <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+            <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
+        </div>
+        <div class="span5 copy">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+                mollis justo velit at nunc. Fusce nec egestas sem. Donec
+                fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+                volutpat lorem ut congue malesuada. In facilisis scelerisque
+                turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+                quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+                risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+                rutrum, nunc leo tempus nisl, eu mollis justo velit at
+                nunc. Fusce nec egestas sem. Donec fringilla.
+            </p>
+        </div>
     </div>
-    <div class="span5 copy">
-        <p>
-            Sick of paying the bank a high-interest rate for a short term loan even though you have a good credit
-            history and strong income sources. Now you can skip the bank and borrow from others who are also tired
-            of helping the banks increase their super profits.
-        </p>
-        <p>
-            By taking out a short term loan with our loan exchange you are borrowing from someone who has a bit of spare
-            cash and would like to earn a better interest rate than they can get from a term deposit with a bank. By
-            cutting out the bank they earn a more competitive interest rate than they would at the bank and you pay less
-            interest. It really is win-win!
-        </p>
+
+    <div class="row-fluid section2">
+        <div class="span5 offset1 copy copy-right">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+                mollis justo velit at nunc. Fusce nec egestas sem. Donec
+                fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+                volutpat lorem ut congue malesuada. In facilisis scelerisque
+                turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+                quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+                risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+                rutrum, nunc leo tempus nisl, eu mollis justo velit at
+                nunc. Fusce nec egestas sem. Donec fringilla.
+            </p>
+        </div>
+        <div class="span5 asset">
+            <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
+        </div>
     </div>
-</div>
 
-
-<div class="row-fluid section2">
-    <div class="span5 offset1 copy copy-right">
-        <p>
-            While p2p loans have been successful overseas, we want to ensure that we start off on the right foot! So to
-            begin with we will only be taking on customers who we think can be most relied upon to make the repayments.
-            These are people who can provide proof of identification, proof of address, proof of income and who
-            submit to a credit history check.
-        </p>
-        <p>
-            Initially we will only provide match-making services for short-term loans of up to 6-months. However who
-            knows what the future holds. One day we might help you get your first mortgage!
-        </p>
-        <p>
-            Initially we aim to target the personal and car loan markets, as well as short-term loans that you would
-            usually use a credit-card for. We feel that these are the loans that people are most overcharged for!
-        </p>
-    </div>
-    <div class="span5 asset">
-        <img class="img-polaroid" src="http://placehold.it/480x300">
-    </div>
-</div>
-
-
-<!-- For the FAQ, we introduce a little bit of JS, using the accordian. -->
-<!-- This brings in jquery.js and bootstrap.js as dependencies. -->
-<!-- http://twitter.github.io/bootstrap/javascxript.html#collapse -->
+    <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
+    <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+    <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
     <div class="row-fluid faq">
         <div class="span10 offset1">
             <h3>FAQ</h3>
-
             <div class="accordion" id="accordion2">
                 <div class="accordion-group">
                     <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                           href="#collapseOne">
-                            What are the costs?
+                        <a class="accordion-toggle" data-toggle="collapse"
+                           data-parent="#accordion2" href="#collapseOne">
+                            What does FAQ stand for?
                         </a>
                     </div>
                     <div id="collapseOne" class="accordion-body collapse">
                         <div class="accordion-inner">
-                            Basically none! Those applying for their first loan with us will need to pay to have a
-                            credit background check. However this is a one-time cost. The match-making service is a free
-                            service and we make no profit.
+                            Frequently Asked Question.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-group">
                     <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                           href="#collapseTwo">
-                            How is the interest rate set?
+                        <a class="accordion-toggle" data-toggle="collapse"
+                           data-parent="#accordion2" href="#collapseTwo">
+                            What's a Frequently Asked Question?
                         </a>
                     </div>
                     <div id="collapseTwo" class="accordion-body collapse">
                         <div class="accordion-inner">
-                            We are currently using a fixed interest rate of 10%. For lenders this is far higher than
-                            you could get with a term deposit. For those taking out a loan this is much less than the
-                            rate you could get a personal loan from a bank.
+                            A question which is commonly asked by users.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                           href="#collapseThree">
-                            What do I need to do apply for a loan?
-                        </a>
-                    </div>
-                    <div id="collapseThree" class="accordion-body collapse">
-                        <div class="accordion-inner">
-                            You will need to provide proof of identification and address, as well as have a credit background check.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
-        <!-- http://creativecommons.org/licenses/ -->
-        <div class="row-fluid footer">
-            <div class="span12">
-                <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>,
-                    without all the cruft that would otherwise be put at the bottom of the page. </p>
             </div>
         </div>
 
     </div>
+
+    <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
+    <!-- http://creativecommons.org/licenses/ -->
+    <div class="row-fluid footer">
+        <div class="span12">
+            <p>This work is licensed under
+                the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
+                    By-SA 3.0
+                </a>, without all the cruft that would otherwise be
+                put at the bottom of the page.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
